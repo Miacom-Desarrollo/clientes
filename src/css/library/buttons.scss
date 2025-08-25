@@ -1,0 +1,75 @@
+.button {
+    &-outline {
+        padding: 1px 12px;
+        border-radius: 100px;
+        border: 1px solid rgba(255, 255, 255, 0.10);
+        
+        background: linear-gradient(180deg, rgba(110, 173, 243, 0.10) 0%, rgba(0, 44, 119, 0.10) 53.48%, rgba(28, 23, 55, 0.10) 100%);
+        backdrop-filter: blur(2px);
+        text-transform: capitalize;
+        width: fit-content;
+        margin: 0 auto;
+        @include body();
+        @include mq(desktop) {
+            @include title-bold();
+        }
+    }
+
+    &-filled {
+        position: relative;
+        padding: 20px 16px;
+        border-radius: 8px;
+        box-shadow: 0px 0px 2px 0px #F1F9FE inset;
+        border: 1px solid #C1A0E8;
+        background-color: transparent;
+        text-transform: capitalize;
+        padding: 12px 16px;
+        width: fit-content;
+        margin: 0 auto;
+        transition: all 300ms ease-in-out;
+        @include bodymobile();
+
+        @include mq(desktop) {
+            @include body();
+        }
+
+        .background{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            transition: all 300ms ease-in-out;
+            &__init{
+                opacity: 1;
+                background: linear-gradient(180deg, rgba(193, 160, 232, 0.30) 0%, rgba(131, 69, 186, 0.30) 100%);
+                box-shadow: 0px 0px 2px 0px #F1F9FE inset;
+            }
+            &__hover{
+                opacity: 0;
+                background: var(--Gradients-Purple, linear-gradient(180deg, #C1A0E8 0%, #8345BA 100%));
+                box-shadow: 0px -2px 6px 0px #EBD8FF inset, 0px 0px 0px 4px rgba(166, 114, 218, 0.20);
+            }
+        }
+
+        &:hover {
+            box-shadow: 0px -2px 6px 0px #EBD8FF inset, 0px 0px 0px 4px rgba(166, 114, 218, 0.20);
+            border: 1px solid #D8C1F1;
+            .background{
+                &__init{
+                    opacity: 0;
+                }
+                &__hover{
+                    opacity: 1;
+                }
+                &__focus{
+                    opacity: 0;
+                }
+            }
+        }
+        &:focus {
+            mix-blend-mode: hard-light;
+        }
+    }
+}

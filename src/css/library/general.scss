@@ -1,0 +1,145 @@
+
+$breakpoints: (
+  mobile: 320px,
+  tablet: 740px,
+  desktop: 980px,
+  wide: 1300px,
+  desktopAd: 810px,
+  mobileLandscape: 480px,
+);
+
+
+
+ body {
+      font-family: 'Roboto', sans-serif;
+    }
+
+/* colors */
+:root {
+
+    //base
+    --base-white: #FFFFFF;
+    --base-black: #000000;
+    --base-grey: #545860;
+    --base-text: #99AEBA;
+
+    // Primary / Blue
+    --blue: #00111f;
+    --blue-950: #002C77;
+    --blue-900: #003fb3;
+    --blue-800: #0043e6;
+    --blue-700: #0050ff;
+    --blue-600: #006bff;
+
+    // Secondary / Blue
+
+    --blue-400: #3fb4f1;
+    --blue-300: #9ad7f9;
+    --blue-200: #2cc8ff;
+    --blue-100: #75daff;
+    --blue-50: #b6e9ff;
+
+    //Primary / Purple
+    --purple-700: #8345ba;
+    --purple-600: #9054c9;
+    --purple-500: #a672da;
+    --purple-400: #c09ae6;
+    --purple-300: #d8c1f1;
+
+    //Primary / Yellow
+    --yellow-500: #ffa40d;
+    --yellow-400: #ffc21b;
+    --yellow-300: #ffd646;
+    --yellow-200: #ffe885;
+    --yellow-100: #fff4c5;
+
+/*
+    #6EADF3 → #002C77 →  #1C1737
+    #7EDDDE → #269A91
+    #C1A0E8 → #8345BA
+    FDD37A → 8345BA
+    EABEDB → D10077*/
+
+  }
+
+.page-content{
+  padding: 0;
+}
+@mixin title-56(){
+  font-size: 56px;
+  font-weight: 500;
+  line-height:72px;
+}
+  @mixin title-42(){
+        font-size: 42px;
+        font-weight: 500;
+        line-height:58px;
+    }
+  @mixin title-32(){
+        font-size: 32px;
+        font-weight: 500;
+        line-height:40px;
+    }
+    @mixin title-32-bold(){
+      font-size: 32px;
+      font-weight: 700;
+      line-height:40px;
+  }
+  @mixin title-bold(){
+        font-size: 24px;
+        font-weight: 700;
+        line-height:36px;
+    }
+  @mixin title(){
+        font-size: 24px;
+        font-weight: 500;
+        line-height:36px;
+    }
+    @mixin subtitle(){
+        font-size: 24px;
+        font-weight: 500;
+        line-height:36px;
+    }
+    @mixin subtitle-20(){
+      font-size: 20px;
+      font-weight: 600;
+      line-height:22px;
+  }
+    @mixin subtitlemobile(){
+      font-size: 18px;
+      font-weight: 600;
+      line-height:22px;
+  }
+  @mixin body2(){
+    font-size: 18px;
+    font-weight: 500;
+    line-height:22px;
+  }
+    @mixin body(){
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+  }
+  @mixin bodymobile(){
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+  }
+  @mixin caption(){
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+  }
+.hidden-desktop{
+  @include mq(desktop)
+  {
+    display: none !important;
+  }
+}
+.hidden-mobile{
+  display: none !important;
+  @include mq(desktop){
+    display: flex !important;
+  }
+}
+

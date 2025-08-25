@@ -1,0 +1,18 @@
+{
+  "type": [
+    "pwa",
+    "web"
+  ],
+  "name": "events-app",
+  "framework": "react",
+  "template": "tabs",
+  "cssPreProcessor": "scss",
+  "bundler": "vite",
+  "theming": {
+    "customColor": false,
+    "color": "#1976d2",
+    "darkMode": false,
+    "iconFonts": true
+  },
+  "customBuild": false
+}
