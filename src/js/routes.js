@@ -1,13 +1,20 @@
 
+
 import HomePage from '../pages/home.jsx';
 import RequestAndLoad from '../pages/request-and-load.jsx';
 import NotFoundPage from '../pages/404.jsx';
+import ClientePage from '../pages/clientes.jsx';
+
 
 
 var routes = [
   {
     path: '/',
     component: HomePage,
+  },
+  {
+    path: '/clientes',
+    component: ClientePage,
   },
   {
     path: '/request-and-load/user/:userId/',

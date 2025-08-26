@@ -15,10 +15,7 @@ import { Floating } from '../components/Floating.jsx';
 const HomePage = () => {
   const isMobile = f7.device.ios || f7.device.android;
   return (
-    <Page name="home">
-      {isMobile && <Floating />}
-      <Banner />
-    </Page>
+    <h1>sds</h1>
   );
 };
 

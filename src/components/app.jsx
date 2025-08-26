@@ -61,43 +61,31 @@ const MyApp = () => {
       {/* Views/Tabs container */}
       <Views tabs className="safe-areas">
         {/* Tabbar for switching views-tabs */}
-        <div >
-          {loading ? (
-            <div className=" skeleton-effect-wave">
-              <div className="skeleton-container">
-                <SkeletonBlock
-                  style={{ width: '100vw', height: '100px' }}
-                  slot="media"
-                />
-              </div>
-            </div>
-
-          ) : (
-            <div className='menu'>
-              <div className='menu__image hidden-mobile'>
-                {/* <img src={logo} alt="" /> */}
-              </div>
-              <div className='menu__toolbar'>
-                <Toolbar tabbar icons bottom>
-                  <Link
-                    tabLink="#view-home"
-                    tabLinkActive={activeTab === 'home'}
-                    onClick={() => handleTabChange('home')}
-                  >
-                    {/* <img src={tabIcons.home[activeTab === 'home' ? 'on' : 'off']} alt="Home" /> */}
-                    <span className={`tabbar-label ${activeTab === 'home' ? 'active-tab' : ''}`}>
-                      Home
-                    </span>
-                  </Link>
-
-                </Toolbar>
-              </div> </div>
-          )}
+        <div>
+          <Toolbar tabbar icons bottom>
+            <Link
+              tabLink="#view-home"
+              tabLinkActive={activeTab === 'home'}
+              onClick={() => handleTabChange('home')}
+            >
+              <span className={`tabbar-label ${activeTab === 'home' ? 'active-tab' : ''}`}>
+                Home
+              </span>
+            </Link>
+            <Link
+              tabLink="#view-clientes"
+              tabLinkActive={activeTab === 'clientes'}
+              onClick={() => handleTabChange('clientes')}
+            >
+              <span className={`tabbar-label ${activeTab === 'clientes' ? 'active-tab' : ''}`}>
+                Clientes
+              </span>
+            </Link>
+          </Toolbar>
         </div>
         {/* Your main view/tab, should have "view-main" class. It also has "tabActive" prop */}
-        <View id="view-home" main tab tabActive url="/" />
-
-        {/* <View id="view-agenda" name="agenda" tab url="/agenda/" /> */}
+  <View id="view-home" main tab tabActive={activeTab === 'home'} url="/" />
+  <View id="view-clientes" main tab tabActive={activeTab === 'clientes'} url="/clientes" />
 
       </Views>
     </App>
