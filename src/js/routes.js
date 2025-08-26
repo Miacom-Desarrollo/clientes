@@ -1,16 +1,15 @@
-
-
 import HomePage from '../pages/home.jsx';
 import RequestAndLoad from '../pages/request-and-load.jsx';
 import NotFoundPage from '../pages/404.jsx';
 import ClientePage from '../pages/clientes.jsx';
+import LoginPage from '../pages/login.jsx';
 
 
 
 var routes = [
   {
     path: '/',
-    component: HomePage,
+    component: LoginPage,
   },
   {
     path: '/clientes',
@@ -62,6 +61,10 @@ var routes = [
         );
       }, 1000);
     },
+  },
+  {
+    path: '/login',
+    component: LoginPage,
   },
   {
     path: '(.*)',
