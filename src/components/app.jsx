@@ -84,8 +84,8 @@ const MyApp = () => {
           </Toolbar>
         </div>
         {/* Your main view/tab, should have "view-main" class. It also has "tabActive" prop */}
-  <View id="view-home" main tab tabActive={activeTab === 'home'} url="/" />
-  <View id="view-clientes" main tab tabActive={activeTab === 'clientes'} url="/clientes" />
+        <View id="view-home" main tab tabActive={activeTab === 'home'} url="/" />
+        <View id="view-clientes" main tab tabActive={activeTab === 'clientes'} url="/clientes" />
 
       </Views>
     </App>
