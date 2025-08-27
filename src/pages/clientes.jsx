@@ -10,6 +10,7 @@ import {
   Button,
 } from "framework7-react";
 import { getClientInvoices } from "../api/services/ClienteService";
+import { f7 } from "framework7-react";
 
 const ClientePage = () => {
   const [invoices, setInvoices] = useState([]);
@@ -23,10 +24,9 @@ const ClientePage = () => {
   const fetchData = async (page = 1) => {
     try {
       const data = await getClientInvoices(user.id, page);
-      console.log(data, "data paginada");
 
       if (data && data.invoices) {
-        setInvoices(data.invoices.data); // 🔹 aquí usamos .data
+        setInvoices(data.invoices.data); 
         setPagination({
           current_page: data.invoices.current_page,
           last_page: data.invoices.last_page,
@@ -35,27 +35,44 @@ const ClientePage = () => {
     } catch (error) {
       console.error("Error cargando facturas del cliente:", error);
     }
+  }
+  const handleLogout = () => {
+    // Eliminar el token y el usuario del local storage
+    localStorage.removeItem("authToken");
+    localStorage.removeItem("user");
+
+    // Redirigir al login
+    f7.views.main.router.navigate("/");
   };
 
   return (
     <Page>
-      <Navbar title="Facturas del Cliente" />
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          margin: "32px 0",
-        }}
-      >
-        <Card style={{ maxWidth: 400, width: "100%", textAlign: "center" }}>
-          <CardContent>
-            <h2 style={{ margin: 0 }}>¡Bienvenido, {user.name}!</h2>
-          </CardContent>
-        </Card>
-      </div>
+      <Navbar title="Facturas del Cliente">
+        <Button
+          slot="right"
+          fill
+          color="red"
+          onClick={handleLogout}
+          style={{
+            padding: "7px 11px",
+            fontSize: "14px",
+            cursor: "pointer",
+            backgroundColor: "#ff3b30",
+            color: "white",
+            border: "none",
+            borderRadius: "4px",
+            display: "flex",
+            alignItems: "center",
+            gap: "4px",
+          }}
+        >
+          <i className="f7-icons" style={{ fontSize: "16px" }}>arrow_left</i>
+        </Button>
+      </Navbar>
 
-      <BlockTitle>Listado de Facturas</BlockTitle>
+      <BlockTitle style={{ marginTop: 50 }}>
+        Bienvenido, {user?.name}
+      </BlockTitle>
 
       {invoices.length > 0 ? (
         invoices.map((invoice) => (

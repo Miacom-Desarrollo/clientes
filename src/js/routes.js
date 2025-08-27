@@ -13,7 +13,15 @@ var routes = [
   },
   {
     path: '/clientes',
-    component: ClientePage,
+    async: ({ resolve, reject }) => {
+      const token = localStorage.getItem('authToken');
+      if (token) {
+        resolve({ component: ClientePage });
+      } else {
+        console.warn('No se encontró un token. Redirigiendo al login.');
+        resolve({ component: LoginPage });
+      }
+    },
   },
   {
     path: '/request-and-load/user/:userId/',
