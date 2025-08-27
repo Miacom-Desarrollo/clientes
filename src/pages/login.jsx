@@ -27,7 +27,6 @@ const Login = () => {
     } catch (error) {
       console.error('Error al iniciar sesión:', error);
       f7.dialog.create({
-        title: 'Error de Autenticación',
         text: 'No se pudo iniciar sesión. Verifique sus credenciales.',
         buttons: [
           {
