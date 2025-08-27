@@ -42,15 +42,30 @@ const ClientePage = () => {
 
   return (
     <Page>
-      <Navbar title="Facturas del Cliente" />
-      <div style={{ display: "flex", justifyContent: "center", alignItems: "center", margin: "32px 0" }}>
-        <Card style={{ maxWidth: 400, width: "100%", textAlign: "center" }}>
-          <CardContent>
-            <h2 style={{ margin: 0 }}>¡Bienvenido, {user.name}!</h2>
-          </CardContent>
-        </Card>
-      </div>
-      <BlockTitle>Listado de Facturas</BlockTitle>
+      <Navbar title="Facturas del Cliente">
+        <Button
+          slot="right"
+          fill
+          color="red"
+          onClick={handleLogout}
+          style={{
+            padding: "7px 11px",
+            fontSize: "14px",
+            cursor: "pointer",
+            backgroundColor: "#ff3b30",
+            color: "white",
+            border: "none",
+            borderRadius: "4px",
+            display: "flex",
+            alignItems: "center",
+            gap: "4px",
+          }}
+        >
+          <i className="f7-icons" style={{ fontSize: "16px" }}>arrow_left</i>
+        </Button>
+      </Navbar>
+    
+      
 
       {invoices.length > 0 ? (
         invoices.map((invoice) => (
@@ -95,24 +110,6 @@ const ClientePage = () => {
       ) : (
         <p>No hay facturas disponibles</p>
       )}
-      <div style={{ padding: "16px" }}>
-        <Button
-          fill
-          color="red"
-          onClick={handleLogout}
-          style={{
-            padding: "10px 20px",
-            fontSize: "16px",
-            cursor: "pointer",
-            backgroundColor: "#007aff",
-            color: "white",
-            border: "none",
-            borderRadius: "4px",
-          }}
-        >
-          Cerrar Sesión
-        </Button>
-      </div>
     </Page>
   );
 };
