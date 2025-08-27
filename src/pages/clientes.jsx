@@ -7,8 +7,10 @@ import {
   CardHeader,
   CardContent,
   CardFooter,
+  Button,
 } from "framework7-react";
 import { getClientInvoices } from "../api/services/ClienteService";
+import { f7 } from "framework7-react";
 
 const ClientePage = () => {
   const [invoices, setInvoices] = useState([]);
@@ -28,6 +30,15 @@ const ClientePage = () => {
 
     fetchData();
   }, []);
+
+  const handleLogout = () => {
+    // Eliminar el token y el usuario del local storage
+    localStorage.removeItem("authToken");
+    localStorage.removeItem("user");
+
+    // Redirigir al login
+    f7.views.main.router.navigate("/");
+  };
 
   return (
     <Page>
@@ -77,6 +88,24 @@ const ClientePage = () => {
       ) : (
         <p>No hay facturas disponibles</p>
       )}
+      <div style={{ padding: "16px" }}>
+        <Button
+          fill
+          color="red"
+          onClick={handleLogout}
+          style={{
+            padding: "10px 20px",
+            fontSize: "16px",
+            cursor: "pointer",
+            backgroundColor: "#007aff",
+            color: "white",
+            border: "none",
+            borderRadius: "4px",
+          }}
+        >
+          Cerrar Sesión
+        </Button>
+      </div>
     </Page>
   );
 };
