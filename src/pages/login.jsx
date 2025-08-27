@@ -26,7 +26,18 @@ const Login = () => {
       f7.views.main.router.navigate('/clientes');
     } catch (error) {
       console.error('Error al iniciar sesión:', error);
-      alert('No se pudo iniciar sesión. Verifique sus credenciales.');
+      f7.dialog.create({
+        title: 'Error de Autenticación',
+        text: 'No se pudo iniciar sesión. Verifique sus credenciales.',
+        buttons: [
+          {
+            text: 'Aceptar',
+            bold: true,
+            color: 'red',
+          },
+        ],
+        cssClass: 'custom-dialog',
+      }).open();
     }
   };
 
