@@ -8,15 +8,25 @@ import {
   BlockFooter,
 } from 'framework7-react';
 import { f7 } from 'framework7-react';
+import AuthService from '../api/services/AuthService';
 
 const Login = () => {
-  const handleLogin = () => {
-    console.log("Intentando redirigir a /clientes");
-    if (f7 && f7.views && f7.views.main) {
-      console.log("Enrutador principal disponible, redirigiendo...");
+  const handleLogin = async () => {
+    try {
+      const credentials = {
+        identification: document.querySelector('input[name="identificacion"]').value,
+        password: document.querySelector('input[name="password"]').value,
+      };
+      
+
+      const { token, user } = await AuthService.loginThirdParty(credentials);
+      console.log('Login exitoso:', user);
+
+      // Redirigir a clientes si el login es exitoso
       f7.views.main.router.navigate('/clientes');
-    } else {
-      console.error("El enrutador principal no está disponible.");
+    } catch (error) {
+      console.error('Error al iniciar sesión:', error);
+      alert('No se pudo iniciar sesión. Verifique sus credenciales.');
     }
   };
 
