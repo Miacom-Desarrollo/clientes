@@ -12,11 +12,11 @@ import { getClientInvoices } from "../api/services/ClienteService";
 
 const ClientePage = () => {
   const [invoices, setInvoices] = useState([]);
-
+  const user = JSON.parse(localStorage.getItem('user'));
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const data = await getClientInvoices(1004);
+        const data = await getClientInvoices(user.id);
         console.log(data, "data");
         if (data && data.invoices) {
           setInvoices(data.invoices);
@@ -31,6 +31,14 @@ const ClientePage = () => {
 
   return (
     <Page>
+      <Navbar title="Facturas del Cliente" />
+      <div style={{ display: "flex", justifyContent: "center", alignItems: "center", margin: "32px 0" }}>
+        <Card style={{ maxWidth: 400, width: "100%", textAlign: "center" }}>
+          <CardContent>
+            <h2 style={{ margin: 0 }}>¡Bienvenido, {user.name}!</h2>
+          </CardContent>
+        </Card>
+      </div>
       <BlockTitle>Listado de Facturas</BlockTitle>
 
       {invoices.length > 0 ? (
@@ -50,7 +58,6 @@ const ClientePage = () => {
               <p>
                 <b>IVA (%):</b> {invoice.iva_percentage}
               </p>
-             
               <p>
                 <b>Creacion de la factura:</b>{" "}
                 {new Date(invoice.created_at).toLocaleDateString("es-CO", {
