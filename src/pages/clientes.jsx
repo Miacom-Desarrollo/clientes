@@ -17,6 +17,7 @@ const ClientePage = () => {
     const fetchData = async () => {
       try {
         const data = await getClientInvoices(1004);
+        console.log(data, "data");
         if (data && data.invoices) {
           setInvoices(data.invoices);
         }
@@ -35,14 +36,32 @@ const ClientePage = () => {
       {invoices.length > 0 ? (
         invoices.map((invoice) => (
           <Card key={invoice.id}>
-            <CardHeader>{invoice.name}</CardHeader>
+            <CardHeader>Numero factura {invoice.name}</CardHeader>
             <CardContent>
               <p>
-                <b>Estado:</b> {invoice.status}
+                <b>Estado de la factura:</b> {invoice.status}
               </p>
               <p>
-                <b>Fecha:</b>{" "}
+                <b>Transmision DIAN:</b> {invoice.transmitted_to_dian ? "si" : "no"}
+              </p>
+              <p>
+                <b>Subtotal:</b> ${Number(invoice.subtotal).toLocaleString("es-CO")}
+              </p>
+              <p>
+                <b>IVA (%):</b> {invoice.iva_percentage}
+              </p>
+             
+              <p>
+                <b>Creacion de la factura:</b>{" "}
                 {new Date(invoice.created_at).toLocaleDateString("es-CO", {
+                  year: "numeric",
+                  month: "long",
+                  day: "numeric",
+                })}
+              </p>
+              <p>
+                <b>Ultima actualización:</b>{" "}
+                {new Date(invoice.updated_at).toLocaleDateString("es-CO", {
                   year: "numeric",
                   month: "long",
                   day: "numeric",
@@ -50,7 +69,7 @@ const ClientePage = () => {
               </p>
             </CardContent>
             <CardFooter>
-              <span>Total</span>
+              <span>Total de la factura:</span>
               <b>${Number(invoice.total).toLocaleString("es-CO")}</b>
             </CardFooter>
           </Card>
