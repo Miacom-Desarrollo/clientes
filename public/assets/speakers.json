@@ -1,0 +1,424 @@
+
+[
+    {
+      "name": "Greg Sitkiewicz",
+      "image": "/images/speakers/Greg-Sitkiewicz.jpg",
+      "position": "Head of Hospital Patient Monitoring North America",
+      "topics": ["Designing 2024 and Strategy", "Future of HPM Chat","Wrap up message"]
+    },
+    {
+      "name": "Christoph Pedain",
+      "image": "/images/speakers/Christoph-Pedain.jpg",
+      "position": "Business Leader, Hospital Patient Monitoring",
+      "topics": ["Future of HPM Chat"]
+    },
+    {
+      "name": "Julia Strandberg",
+      "image": "/images/speakers/Julia-Standberg.jpg",
+      "position": "Chief Business Leader, Connected Care & Monitoring",
+      "topics": ["Future of HPM Chat"]
+    },
+    {
+      "name": "Brian Bell",
+      "image": "/images/speakers/Brian-Bell.jpg",
+      "position": "Head of Finance Hospital Patient Monitoring",
+      "topics": ["HPM Journey"]
+    },
+    {
+      "name": "Jeff DiLullo",
+      "image": "/images/speakers/Jeff-DiLullo.jpg",
+      "position": "Chief Region Leader Philips North America ",
+      "topics": ["North America Point"]
+    },
+    {
+      "name": "Mariska Vente",
+      "image": "/images/speakers/Mariska-Vente.jpg",
+      "position": "Business Sales Leader CA&D North America",
+      "topics": ["Growth of CA&D segment"]
+    },
+    {
+      "name": "Sachin Chaudari",
+      "image": "/images/speakers/Sachin-Chaudari.jpg",
+      "position": "Business Category Leader, HPM",
+      "topics": ["Growth of CA&D segment"]
+    },
+    {
+      "name": "Alex Harris",
+      "image": "/images/speakers/Alex-Harris.jpg",
+      "position": "Head of Marketing, North America",
+      "topics": ["What’s new in 2024?"]
+    },
+    {
+      "name": "Roy Jakobs",
+      "image": "/images/speakers/RoyJakobs.jpg",
+      "position": "CEO of Philips",
+      "topics": ["CEO Keynote"]
+    },
+    {
+      "name": "Rob Spadafora",
+      "image": "/images/speakers/Rob-Spadafora.jpg",
+      "position": "Head of Legal, North America",
+      "topics": ["Legal and Compliance Update"]
+    },
+    {
+      "name": "Jonathan Glazier",
+      "image": "/images/speakers/Jonathan-Glazier.jpg",
+      "position": "Head of Legal Compliance North America",
+      "topics": ["Legal and Compliance Update"]
+    },
+    {
+      "name": "Todd Borkowski",
+      "image": "/images/speakers/Todd-borkowski.jpg",
+      "position": "Category Leader, Business Innovation & Services Delivery",
+      "topics": ["Clock speed of innovation"]
+    },
+    {
+      "name": "Mark-Holger Konrad",
+      "image": "/images/speakers/Mark-Holger-Konrad.jpg",
+      "position": "Head of Medical & Clinical HPM",
+      "topics": ["Clock speed of innovation"]
+    },
+    {
+      "name": "Kevin Philips",
+      "image": "/images/speakers/Kevin-Phillips.jpg",
+      "position": "Head of Product Management, Clinical Integration & Insights",
+      "topics": ["Spotlight on Capsule"]
+    },
+    {
+      "name": "Tammy Beaulieu",
+      "image": "/images/speakers/Tammy-Beaulieu.jpg",
+      "position": "Upstream Global Product Manager, CAD",
+      "topics": ["Visual Patient Avatar"]
+    },
+    {
+      "name": "Chris Yorke",
+      "image": "/images/speakers/Chris-Yorke.png",
+      "position": " Downstream Product Manager, Clinical applications and workflow",
+      "topics": ["Care Assist/ Event Notification"]
+    },
+    {
+      "name": "Donna Paruso",
+      "image": "/images/speakers/Donna-Paruso.jpg",
+      "position": " Senior Downstream Product Manager-PIC",
+      "topics": ["Imprivata"]
+    },
+    {
+      "name": "Rob Moran",
+      "image": "/images/speakers/Robert-moran-.jpg",
+      "position": "Senior Product Manager, Focal Point",
+      "topics": ["Focal Point"]
+    },
+    {
+      "name": "Meredith Rolen",
+      "image": "/images/speakers/Meredith-Rolen.jpg",
+      "position": "Downstream Product Marketing Manager",
+      "topics": ["Clinical Insights Manager (CIM)"]
+    },
+    {
+      "name": "Jennifer Rist",
+      "image": "/images/speakers/Jennifer-Rist.jpg",
+      "position": "Senior Product Manager Healthcare Analytics",
+      "topics": ["Clinical Insights Manager (CIM)"]
+    },
+    {
+      "name": "Shane Tornifoglio",
+      "image": "/images/speakers/Shane-Tornifoglio.jpg",
+      "position": "Downstream Product Management Lead, Systems",
+      "topics": ["PIC 4.2 with MDI"]
+    },
+    {
+      "name": "Libby Bucsi",
+      "image": "/images/speakers/Libby-Bucsi.jpg",
+      "position": "Product Management Leader, Medical Device Integration · Philips Capsule",
+      "topics": ["PIC 4.2 with MDI"]
+    },
+    {
+      "name": "Britt DeSanti",
+      "image": "/images/speakers/Britt-DeSanti.jpg",
+      "position": "Senior Product Manager",
+      "topics": ["Capsule Surveillance"]
+    },
+    {
+      "name": "Rachael Kinsler",
+      "image": "/images/speakers/Rachael-Kinsler.jpg",
+      "position": " Emerging Markets Leader for Philips",
+      "topics": ["MCOT"]
+    },
+    {
+      "name": "Doris Cather",
+      "image": "/images/speakers/Doris-Cather.jpg",
+      "position": "Sr. Business Development Manager ",
+      "topics": ["MCOT"]
+    },
+    {
+      "name": "Steve Groen",
+      "image": "/images/speakers/Steve-Groen.jpg",
+      "position": "Senior Product Manager",
+      "topics": ["SpO2 – Alar Sensor"]
+    },
+    {
+      "name": "Bit Rambusch",
+      "image": "/images/speakers/bit-ramusch.jpg",
+      "position": "Head of Services & Solutions Delivery, North America",
+      "topics": ["Service Point of View Panel", "Wrap up message"]
+    },
+    {
+      "name": "Hasan Zaidi",
+      "image": "/images/speakers/Hasa-Zaidi.jpg",
+      "position": "Customer Success Leader",
+      "topics": ["The role of the CSM Team"]
+    },
+    {
+      "name": "Jaime Osborn",
+      "image": "/images/speakers/jamie-Osborne.jpg",
+      "position": "MaaS Business Innovation Leader HPM",
+      "topics": ["The future of eMaaS and SES"]
+    },
+    {
+      "name": "Mary Ellen Skeens",
+      "image": "/images/speakers/Mary-ellem-skeens.jpg",
+      "position": "Workforce Innovation Leader",
+      "topics": ["Workforce Innovation"]
+    },
+    {
+      "name": "Donnie Horner",
+      "image": "/images/speakers/donnie-horner.jpg",
+      "position": "Senior VP Human Capital Solutions",
+      "topics": ["Leading through change keynote address"]
+    },
+    {
+      "name": "Mary Ann Jose",
+      "image": "/images/speakers/Mary-ann-jose.jpg",
+      "position": "Sales Operations Leader CA&D ",
+      "topics": ["30 / 60 / 90 Day Events & Trainings"]
+    },
+    {
+      "name": "Wes Davis",
+      "image": "/images/speakers/wes-Davis.jpg",
+      "position": "Strategic Business Architect",
+      "topics": ["OB / Fetal Monitoring Portfolio: How we win in 2024"]
+    },
+    {
+      "name": "Carol Shaughnessy",
+      "image": "/images/speakers/Carol-Shaughnessy.jpg",
+      "position": "OB Upstream Product Manager",
+      "topics": ["OB / Fetal Monitoring Portfolio: How we win in 2024"]
+    },
+    {
+      "name": "Nick Braithwaite",
+      "image": "/images/speakers/nick-braithwaite.jpg",
+      "position": "Business Marketing Manager",
+      "topics": ["OB / Fetal Monitoring Portfolio: How we win in 2024","General Care Portfolio: How we win in 2024 "]
+    },
+    {
+      "name": "Anand Yadav",
+      "image": "/images/speakers/anand-Yadav.jpg",
+      "position": "General Care Upstream Product Manager",
+      "topics": ["General Care Portfolio: How we win in 2024 "]
+    },
+    {
+      "name": "John Moscarillo",
+      "image": "/images/speakers/Jon-Moscarrillo.jpg",
+      "position": "Channels Manager",
+      "topics": ["Clinical Measurements"]
+    },
+    {
+      "name": "Jil Barrett",
+      "image": "/images/speakers/Jil-barret.jpg",
+      "position": "POS Leader",
+      "topics": ["Clinical Measurements"]
+    },
+    {
+      "name": "Deb Gifford",
+      "image": "/images/speakers/Deb-Gifford.jpg",
+      "position": "Clinical Adoption Leader",
+      "topics": ["Clinical Measurements"]
+    },
+    {
+      "name": "Dan Ritchie",
+      "image": "/images/speakers/Dan-Ritchie.jpg",
+      "position": "National Contract Leader",
+      "topics": ["Clinical Measurements"]
+    },
+    {
+      "name": "Alpha Newberg",
+      "image": "/images/speakers/alpha-newberg.jpg",
+      "position": "National Contract Leader",
+      "topics": ["Clinical Measurements"]
+    },
+    {
+      "name": "Justin Leon",
+      "image": "/images/speakers/Justin-Leon.jpg",
+      "position": "National Contract Leader",
+      "topics": ["Clinical Measurements"]
+    },
+    {
+      "name": "Amy Martin",
+      "image": "/images/speakers/amy-martin.jpg",
+      "position": "Head of Standards,HPM",
+      "topics": ["Scorecards – IDN Opportunity Finder"]
+    },
+    {
+      "name": "Janet Scott",
+      "image": "/images/speakers/Janeth-scott.jpg",
+      "position": "North America Marketing & Insights Analyst",
+      "topics": ["Scorecards – IDN Opportunity Finder"]
+    },
+    {
+      "name": "Shannon Weinberg",
+      "image": "/images/speakers/shannon-weinberg.jpg",
+      "position": "Senior Marketing Manager",
+      "topics": ["Scorecards – IDN Opportunity Finder"]
+    },
+    {
+      "name": "Kaitlin Pierce",
+      "image": "/images/speakers/keitlin-pierce.jpg",
+      "position": "Go-to-Market, Marketing Director",
+      "topics": ["IDN Pitch "]
+    },
+    {
+      "name": "Christin Villa",
+      "image": "/images/speakers/Christina-villa.jpg",
+      "position": "Commercial Process Innovation & Capability Manager",
+      "topics": ["Apptus"]
+    },
+    {
+      "name": "Dana Park",
+      "image": "/images/speakers/dana-park.jpg",
+      "position": "Business Excellence Leader",
+      "topics": ["Apptus"]
+    },
+    {
+      "name": "Phil Gamroth",
+      "image": "/images/speakers/Phil-gamroth.jpg",
+      "position": "Commercial Process Innovation & Capability Leader",
+      "topics": ["Apptus"]
+    },
+    {
+      "name": "Andy Urban",
+      "image": "/images/speakers/andy-Urban-.jpg",
+      "position": "Commercial Process Innovation & Capability Leader",
+      "topics": ["Apptus"]
+    },
+    {
+      "name": "Ricardo Neufville",
+      "image": "/images/speakers/ricardo-neufville.jpg",
+      "position": "Clinical Director Enterprise Partnerships",
+      "topics": ["The Future is EMaaS"]
+    },
+    {
+      "name": "Matt Davis",
+      "image": "/images/speakers/Matt-Davis.jpg",
+      "position": "NAM Technical Sales Director",
+      "topics": ["The Future is EMaaS"]
+    },
+    {
+      "name": "Lyndsay Miles",
+      "image": "/images/speakers/Lindsay-miles.jpg",
+      "position": "NAM Director, HPM Enterprise Partnership",
+      "topics": ["The Future is EMaaS"]
+    },
+    {
+      "name": "Mike Zuckerman",
+      "image": "/images/speakers/Mike-zuckerman.jpg",
+      "position": "Head of Enterprise Partnership Sales",
+      "topics": ["The Future is EMaaS"]
+    },
+    {
+      "name": "Stacy Kelleher",
+      "image": "/images/speakers/stacy-kelleher.jpg",
+      "position": "Head of Patient Monitoring Sales",
+      "topics": ["Sales stages, FC, cadence & calenda"]
+    },
+    {
+      "name": "Arpita Shah",
+      "image": "/images/speakers/Arpita-shah.jpg",
+      "position": "HPM Business Excellence Leader, North America ",
+      "topics": ["Sales stages, FC, cadence & calenda"]
+    },
+    {
+      "name": "Denise Friedman",
+      "image": "/images/speakers/Denise-Friedman.jpg",
+      "position": "HPM Central Zone Sales Leader",
+      "topics": ["Central Zone Welcome"]
+    },
+    {
+      "name": "Steve McGrew",
+      "image": "/images/speakers/steve-mcgrew.jpg",
+      "position": "Principal Design Strategist",
+      "topics": ["Sales Methodology"]
+    },
+    {
+      "name": "Kristy Rosano",
+      "image": "/images/speakers/Kristy-rosano.jpg",
+      "position": "Director, Sales Education, HPM, North America",
+      "topics": ["Sales Methodology"]
+    },
+    {
+      "name": "Jon Escola",
+      "image": "/images/speakers/John-escola.jpg",
+      "position": "HPM West Zone Sales Leader",
+      "topics": ["West Zone Welcome"]
+    },
+    {
+      "name": "Mark Donaldson",
+      "image": "/images/speakers/mark-donaldson.jpg",
+      "position": "HPM East Zone Sales Leader",
+      "topics": ["East Zone Welcome"]
+    },
+    {
+      "name": "Michael Hvisdos",
+      "image": "/images/speakers/Michael-Hvisdos.jpg",
+      "position": "Global Challenger Advisor",
+      "topics": ["New Sales Methodology"]
+    },
+    {
+      "name": "Kimberly Mingo",
+      "image": "/images/speakers/kimberly-mingo.jpg",
+      "position": "Head of Government Sales and Business Strategy",
+      "topics": ["North America Region and Government Panel "]
+    },
+    {
+      "name": "Eric Brill",
+      "image": "/images/speakers/Eric-Brill.jpg",
+      "position": "Head of Breakthrough Innovations, HPM",
+      "topics": ["Standards Leadership "]
+    },
+    {
+      "name": "Anthony Locascio",
+      "image": "/images/speakers/anthony-locascio.jpg",
+      "position": "Chief Technical Architect, HPM",
+      "topics": ["Standards Leadership"]
+    },
+    {
+      "name": "James McGuinness",
+      "image": "/images/speakers/James-McGuinness.jpg",
+      "position": "Business Marketing Manager",
+      "topics": ["The Future is EMaaS"]
+    },
+    {
+      "name": "Joe Shanahan",
+      "image": "/images/speakers/joe-shanahan.jpg",
+      "position": "HSS Zone Sales Leader – East Zone",
+      "topics": ["North America Region and Government Panel"]
+    },
+    {
+      "name": "Ben King",
+      "image": "/images/speakers/ben-king.jpg",
+      "position": "HSS Zone Sales Leader - West Zone",
+      "topics": ["North America Region and Government Panel"]
+    },
+    {
+      "name": "Anissa Napier",
+      "image": "/images/speakers/anissa-napier.jpg",
+      "position": "Inside Sales Director",
+      "topics": ["Inside Sales Leadership"]
+    },
+    {
+      "name": "Dan Harvey",
+      "image": "/images/speakers/dan-harvey.jpg",
+      "position": " Head of Field Operations",
+      "topics": ["Inside Sales Leadership"]
+    }
+  ]
+  

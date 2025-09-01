@@ -1,0 +1,1378 @@
+[
+    {
+      "id": "tab-1",
+      "label": "Day 1",
+      "items": [
+        {
+          "id": "item-1",
+          "title": "Morning Sessions",
+          "content": [
+            {
+              "id": "item-1-1",
+              "title": "Breakfast",
+              "time": "Start: 7:00 AM  End: 8:00 AM",
+              "speakers": [],
+              "itemSpecial": true
+            },
+            {
+              "id": "item-1-2",
+              "title": "Welcome & Kickoff Address",
+              "time": "Start: 8:00 AM  End: 8:15 AM",
+              "speakers": [
+                {
+                  "name": "Greg Sitkiewicz",
+                  "image": "/images/speakers/Greg-Sitkiewicz.jpg"
+                }
+              ],
+              "itemSpecial": false
+            },
+            {
+              "id": "item-1-3",
+              "title": "Designing 2024 and Strategy",
+              "time": "Start: 8:15 AM  End: 9:05 AM",
+              "speakers": [
+                {
+                  "name": "Greg Sitkiewicz",
+                  "image": "/images/speakers/Greg-Sitkiewicz.jpg"
+                }
+              ],
+              "itemSpecial": false
+            },
+            {
+              "id": "item-1-4",
+              "title": "Customer video",
+              "time": "Start: 9:05 AM  End: 9:08 AM",
+              "speakers": [],
+              "itemSpecial": false
+            },
+            {
+              "id": "item-1-5",
+              "title": "CEO Message",
+              "time": "Start: 9:10 AM  End: 9:15 AM",
+              "speakers": [
+                {
+                  "name": "Roy Jakobs",
+                  "image":  "/images/speakers/RoyJakobs.jpg"
+                }
+              ],
+              "itemSpecial": false
+            },
+            {
+              "id": "item-1-6",
+              "title": "HPM Journey",
+              "time": "Start: 9:15 AM  End: 9:35 AM",
+              "speakers": [
+                {
+                  "name": "Brian Bell",
+                  "image": "/images/speakers/Brian-Bell.jpg"
+                }
+              ],
+              "itemSpecial": false
+            },
+            {
+              "id": "item-1-7",
+              "title": "Future of HPM Chat",
+              "time": "Start: 9:40 AM  End: 10:10 AM",
+              "speakers": [
+                {
+                  "name": "Christoph Pedain",
+                  "image": "/images/speakers/Christoph-Pedain.jpg"
+                },
+                {
+                  "name": "Greg Sitkiewicz",
+                  "image": "/images/speakers/Greg-Sitkiewicz.jpg"
+                },
+                {
+                  "name": "Julia Strandberg",
+                  "image": "/images/speakers/Julia-Standberg.jpg"
+                }
+              ],
+              "itemSpecial": false
+            },
+            {
+              "id": "item-1-8",
+              "title": "Break",
+              "time": "Start: 10:10 AM  End: 10:40 AM",
+              "speakers": [],
+              "itemSpecial": true
+            },
+            {
+              "id": "item-1-9",
+              "title": "North America Point of View",
+              "time": "Start: 10:40 AM  End: 11:00 AM",
+              "speakers": [
+                {
+                  "name": "Jeff DiLullo",
+                  "image": "/images/speakers/Jeff-DiLullo.jpg"
+                }
+              ],
+              "itemSpecial": false
+            },
+            {
+              "id": "item-1-10",
+              "title": "New Sales Methodology",
+              "time": "Start: 11:00 AM  End: 12:00 PM",
+              "speakers": [
+                {
+                  "name": "Michael Hvisdos",
+                  "image": "/images/speakers/Michael-Hvisdos.jpg"
+                }
+              ],
+              "itemSpecial": false
+            },
+            {
+              "id": "item-1-11",
+              "title": "Lunch",
+              "time": "Start: 12:00 PM  End: 1:00 PM",
+              "speakers": [],
+              "itemSpecial": true
+            }
+          ]
+          
+        },
+        {
+            "id": "item-2",
+            "title": "Afternoon Sessions",
+            "content": [
+              {
+                "id": "item-2-0",
+                "title": "Legal and Compliance Update",
+                "time": "Start: 1:00 PM  End: 1:20 PM",
+                "speakers": [
+                  {
+                    "name": "Rob Spadafora",
+                    "image":  "/images/speakers/Rob-Spadafora.jpg"
+                  },
+                  {
+                    "name": "Jonathan Glazier",
+                    "image":  "/images/speakers/Jonathan-Glazier.jpg"
+                  }
+                ],
+                "itemSpecial": false
+              },
+              {
+                "id": "item-2-1",
+                "title": "What’s new in 2024?",
+                "time": "Start: 1:20 PM  End: 1:40 PM",
+                "speakers": [
+                  {
+                    "name": "Alex Harris",
+                    "image": "/images/speakers/Alex-Harris.jpg"
+                  }
+                ],
+                "itemSpecial": false
+              },
+              {
+                "id": "item-2-2",
+                "title": "Growth of CA&D segment",
+                "time": "Start: 1:40 PM  End: 2:00 PM",
+                "speakers": [
+                  {
+                    "name": "Mariska Vente",
+                    "image": "/images/speakers/Mariska-Vente.jpg"
+                  },
+                  {
+                    "name": "Sachin Chaudari",
+                    "image":  "/images/speakers/Sachin-Chaudari.jpg"
+                  }
+                ],
+                "itemSpecial": false
+              },
+              {
+                "id": "item-2-3",
+                "title": "Clock speed of innovation",
+                "time": "Start: 2:00 PM  End: 2:20 PM",
+                "speakers": [
+                  {
+                    "name": "Todd Borkowski",
+                    "image": "/images/speakers/Todd-borkowski.jpg"
+                  },
+                  {
+                    "name": "Mark-Holger Konrad",
+                    "image":  "/images/speakers/Mark-Holger-Konrad.jpg"
+                  },
+                  {
+                    "name": "Mike Zuckerman",
+                    "image":  "/images/speakers/Mike-zuckerman.jpg"
+                  }
+                ],
+                "itemSpecial": false
+              },
+              {
+                "id": "item-2-4",
+                "title": "Spotlight on Clinical Integration & Insights",
+                "time": "Start: 2:20 PM  End: 2:35 PM",
+                "speakers": [
+                  {
+                    "name": "Kevin Philips",
+                    "image":  "/images/speakers/Kevin-Phillips.jpg"
+                  }
+                ],
+                "itemSpecial": false
+              },
+              {
+                "id": "item-2-5",
+                "title": "Service Point of View Panel",
+                "time": "Start: 2:35 PM  End: 3:05 PM",
+                "speakers": [
+                  {
+                    "name": "Bit Rambush",
+                    "image":  "/images/speakers/bit-ramusch.jpg"
+                  },
+                  {
+                    "name": "Hasan Zaidi",
+                    "image":  "/images/speakers/Hasa-Zaidi.jpg"
+                  },
+                  {
+                    "name": "Mary Ellen Skeens",
+                    "image":  "/images/speakers/Mary-ellem-skeens.jpg"
+                  }
+                ],
+                "itemSpecial": false
+              },
+              {
+                "id": "item-2-6",
+                "title": "North America Region and Government Panel",
+                "time": "Start: 3:05 PM  End: 3:25 PM",
+                "speakers": [
+                  {
+                    "name": "Joe Shanahan",
+                    "image":  "/images/speakers/joe-shanahan.jpg"
+                  },
+                  {
+                    "name": "Ben King",
+                    "image":  "/images/speakers/ben-king.jpg"
+                  },
+                  {
+                    "name": "Kimberly Mingo",
+                    "image":  "/images/speakers/kimberly-mingo.jpg"
+                  }
+                ],
+                "itemSpecial": false
+              },
+              {
+                "id": "item-2-7",
+                "title": "Break",
+                "time": "Start: 3:25 PM  End: 3:55 PM",
+                "speakers": [],
+                "itemSpecial": true
+              },
+              {
+                "id": "item-2-8",
+                "title": "Standards Leadership",
+                "time": "Start: 3:55 PM  End: 4:15 PM",
+                "speakers": [
+                  {
+                    "name": "Amy Martin",
+                    "image":  "/images/speakers/amy-martin.jpg"
+                  },
+                  {
+                    "name": "Eric Brill",
+                    "image":  "/images/speakers/Eric-Brill.jpg"
+                  },
+                  {
+                    "name": "Anthony Locascio",
+                    "image":  "/images/speakers/anthony-locascio.jpg"
+                  }
+                ],
+                "itemSpecial": false
+              },
+              {
+                "id": "item-2-9",
+                "title": "Enterprise Leadership",
+                "time": "Start: 4:15 PM  End: 4:35 PM",
+                "speakers": [
+                  {
+                    "name": "Mike Zuckerman",
+                    "image":  "/images/speakers/Mike-zuckerman.jpg"
+                  }
+                ],
+                "itemSpecial": false
+              },
+              {
+                "id": "item-2-10",
+                "title": "Inside Sales Leadership",
+                "time": "Start: 4:35 PM  End: 4:55 PM",
+                "speakers": [
+                  {
+                    "name": "Anissa Napier",
+                    "image":  "/images/speakers/anissa-napier.jpg"
+                  },
+                  {
+                    "name": "Dan Harvey",
+                    "image":  "/images/speakers/dan-harvey.jpg"
+                  }
+                ],
+                "itemSpecial": false
+              },
+              {
+                "id": "item-2-11",
+                "title": "HPM Leadership",
+                "time": "Start: 4:55 PM  End: 5:15 PM",
+                "speakers": [
+                  {
+                    "name": "Stacy Kelleher",
+                    "image":  "/images/speakers/stacy-kelleher.jpg"
+                  },
+                  {
+                    "name": "Mark Donaldson",
+                    "image":  "/images/speakers/mark-donaldson.jpg"
+                  },
+                                    {
+                    "name": "Denise Friedman",
+                    "image":  "/images/speakers/Denise Friedman.jpg"
+                  },
+                                    {
+                    "name": "Jon Escola",
+                    "image":  "/images/speakers/John-escola.jpg"
+                  }
+                ],
+                "itemSpecial": false
+              }
+            ]
+          },
+          {
+            "id": "item-3",
+            "title": "Innovation Gala",
+            "content": [
+              {
+                "id": "item-3-6",
+                "icon":"/images/agenda/PIC-4.2-withMDIP.svg",
+                "title": "PIC 4.2 with MDI",
+                "time": "",
+                "speakers": [
+                  {
+                    "name": "Shane Tornifoglio",
+                    "image":  "/images/speakers/Shane-Tornifoglio.jpg"
+                  },
+                  {
+                    "name": "Libby Bucsi",
+                    "image":  "/images/speakers/Libby-Bucsi.jpg"
+                  }
+                ],
+                "itemSpecial": false
+              },
+              {
+                "id": "item-3-7",
+                "icon":"/images/agenda/Capsule-Surveillance.svg",
+                "title": "Capsule Surveillance",
+                "time": "",
+                "speakers": [
+                  {
+                    "name": "Britt DeSanti",
+                    "image":  "/images/speakers/Britt-DeSanti.jpg"
+                  }
+                ],
+                "itemSpecial": false
+              },
+              {
+                "id": "item-3-5",
+                "icon":"/images/agenda/CIM.svg",
+                "title": "Clinical Insights Manager (CIM)",
+                "time": "",
+                "speakers": [
+                  {
+                    "name": "Meredith Rolen",
+                    "image":  "/images/speakers/Meredith-Rolen.jpg"
+                  },
+                  {
+                    "name": "Jennifer Rist",
+                    "image":  "/images/speakers/Jennifer-Rist.jpg"
+                  }
+                ],
+                "itemSpecial": false
+              },
+              {
+                "id": "item-3-9",
+                "icon":"/images/agenda/SpO2–Alar-Sensor.svg",
+                "title": "SpO2 – Alar Sensor",
+                "time": "",
+                "speakers": [
+                  {
+                    "name": "Steve Groen",
+                    "image":  "/images/speakers/Steve-Groen.jpg"
+                  }
+                ],
+                "itemSpecial": false
+              },
+              {
+                "id": "item-3-8",
+                "icon":"/images/agenda/MCOT.svg",
+                "title": "MCOT",
+                "time": "",
+                "speakers": [
+                  {
+                    "name": "Rachael Kinsler",
+                    "image":  "/images/speakers/Rachael-Kinsler.jpg"
+                  },
+                  {
+                    "name": "Doris Cather",
+                    "image":  "/images/speakers/Doris-Cather.jpg"
+                  }
+                ],
+                "itemSpecial": false
+              },
+              {
+                "id": "item-3-2",
+                "icon":"/images/agenda/Event-Notification.svg",
+                "title": "Care Assist/ Event Notification",
+                "time": "",
+                "speakers": [
+                  {
+                    "name": "Chris Yorke",
+                    "image": "/images/speakers/Chris-Yorke.png"
+                  }
+                ],
+                "itemSpecial": false
+              },
+              {
+                "id": "item-3-4",
+                "icon":"/images/agenda/Focal-Point.svg",
+                "title": "Focal Point",
+                "time": "",
+                "speakers": [
+                  {
+                    "name": "Rob Moran",
+                    "image": "/images/speakers/Robert-moran-.jpg"
+                  }
+                ],
+                "itemSpecial": false
+              },
+              {
+                "id": "item-3-1",
+                "icon":"/images/agenda/Visual-Patient-Avatar.svg",
+                "title": "Visual Patient Avatar",
+                "time": "",
+                "speakers": [
+                  {
+                    "name": "Tammy Beaulieu",
+                    "image":  "/images/speakers/Tammy-Beaulieu.jpg"
+                  }
+                ],
+                "itemSpecial": false
+              },
+
+              {
+                "id": "item-3-3",
+                "icon":"/images/agenda/Imprivata.svg",
+                "title": "Imprivata",
+                "time": "",
+                "speakers": [
+                  {
+                    "name": "Donna Paruso",
+                    "image":  "/images/speakers/Donna-Paruso.jpg"
+                  }
+                ],
+                "itemSpecial": false
+              }
+            ]
+          }
+          
+      ]
+    },
+    {
+      "id": "tab-2",
+      "label": "Day 2",
+      "items": [
+        {
+            "id": "item-1",
+            "title": "East Zone - Florida A",
+            "content": [
+              {
+                "id": "item-1-1",
+                "title": "Welcome",
+                "time": "Start: 8:00 AM  End: 9:00 AM",
+                "speakers": [
+                  {
+                    "name": "Mark Donaldson",
+                    "image":  "/images/speakers/mark-donaldson.jpg"
+                  }
+                ],
+                "itemSpecial": false
+              },
+              {
+                "id": "item-1-2",
+                "title": "Sales Methodology, part 1",
+                "time": "Start: 9:00 AM  End: 10:00 AM",
+                "speakers": [
+                  {
+                    "name": "Global Challenger Advisor",
+                    "image":  ""
+                  }
+                ],
+                "itemSpecial": false
+              },
+              {
+                "id": "item-1-3",
+                "title": "Break",
+                "time": "Start: 10:00 AM  End: 10:20 AM",
+                "speakers": [],
+                "itemSpecial": true
+              },
+              {
+                "id": "item-1-4",
+                "title": "Sales Methodology, part 2",
+                "time": "Start: 10:20 AM  End: 12:20 PM",
+                "speakers": [
+                  {
+                    "name": "Global Challenger Advisor",
+                    "image":  ""
+                  }
+                ],
+                "itemSpecial": false
+              },
+              {
+                "id": "item-1-5",
+                "title": "Lunch",
+                "time": "Start: 12:20 PM  End: 1:20 PM",
+                "speakers": [],
+                "itemSpecial": true
+              },
+              {
+                "id": "item-1-6",
+                "title": "Scorecards – IDN Opportunity Finder",
+                "time": "Start: 1:20 PM  End: 2:05 PM",
+                "speakers": [
+                  {
+                    "name": "Shannon Weinberg",
+                    "image":  "/images/speakers/shannon-weinberg.jpg"
+                  },
+                  {
+                    "name": "Janet Scott",
+                    "image":  "/images/speakers/Janeth-scott.jpg"
+                  },
+                  {
+                    "name": "Amy Martin",
+                    "image":  "/images/speakers/amy-martin.jpg"
+                  }
+                ],
+                "itemSpecial": false
+              },
+              {
+                "id": "item-1-7",
+                "title": "Sales stages, FC, cadence & calendar",
+                "time": "Start: 2:05 PM  End: 2:50 PM",
+                "speakers": [
+                  {
+                    "name": "Arpita Shah",
+                    "image":  "/images/speakers/Arpita-shah.jpg"
+                  },
+                  {
+                    "name": "Stacy Kelleher",
+                    "image":  "/images/speakers/stacy-kelleher.jpg"
+                  }
+                ],
+                "itemSpecial": false
+              },
+              {
+                "id": "item-1-8",
+                "title": "IDN Pitch",
+                "time": "Start: 2:50 PM  End: 3:35 PM",
+                "speakers": [
+                  {
+                    "name": "Kaitlin Pierce",
+                    "image":  "/images/speakers/keitlin-pierce.jpg"
+                  }
+                ],
+                "itemSpecial": false
+              },
+              {
+                "id": "item-1-9",
+                "title": "Break",
+                "time": "Start: 3:35 PM  End: 3:55 PM",
+                "speakers": [],
+                "itemSpecial": true
+              },
+              {
+                "id": "item-1-10",
+                "title": "The Future is EMaaS",
+                "time": "Start: 3:55 PM  End: 4:40 PM",
+                "speakers": [
+                  {
+                    "name": "Mike Zuckerman",
+                    "image":  "/images/speakers/Mike-zuckerman.jpg"
+                  },
+                  {
+                    "name": "Lyndsay Miles",
+                    "image":  "/images/speakers/Lindsay-miles.jpg"
+                  },
+                  {
+                    "name": "Ricardo Neufville",
+                    "image":  "/images/speakers/ricardo-neufville.jpg"
+                  },
+                  {
+                    "name": "Matt Davis",
+                    "image":  "/images/speakers/Matt Davis.jpg"
+                  },
+                  {
+                    "name": "James McGuinness",
+                    "image":  "/images/speakers/James-McGuinness.jpg"
+                  }
+                ],
+                "itemSpecial": false
+              },
+              {
+                "id": "item-1-11",
+                "title": "Apptus",
+                "time": "Start: 4:40 PM  End: 5:25 PM",
+                "speakers": [
+                  {
+                    "name": "Andy Urban",
+                    "image":  "/images/speakers/andy-Urban-.jpg"
+                  },
+                  {
+                    "name": "Phil Gamroth",
+                    "image":  "/images/speakers/Phil-gamroth.jpg"
+                  },
+                  {
+                    "name": "Christin Villa",
+                    "image":  "/images/speakers/Christina-villa.jpg"
+                  }
+                ],
+                "itemSpecial": false
+              },
+              {
+                "id": "item-1-12",
+                "title": "Zone leaders wrap up Day 2",
+                "time": "Start: 5:25 PM  End: 5:30 PM",
+                "speakers": [],
+                "itemSpecial": false
+              },
+              {
+                "id": "item-1-13",
+                "title": "Break",
+                "time": "Start: 5:30 PM  End: 6:30 PM",
+                "speakers": [],
+                "itemSpecial": true
+              },
+              {
+                "id": "item-1-14",
+                "title": "Celebration Dinner",
+                "time": "Start: 6:30 PM  End: 8:30 PM",
+                "speakers": [],
+                "itemSpecial": false
+              }
+            ]
+          },          
+          {
+            "id": "item-2",
+            "title": "West Zone - Florida B",
+            "content": [
+              {
+                "id": "item-2-1",
+                "title": "Welcome",
+                "time": "Start: 8:00 AM  End: 9:00 AM",
+                "speakers": [
+                  {
+                    "name": "Jon Escola",
+                    "image":  "/images/speakers/John-escola.jpg"
+                  }
+                ],
+                "itemSpecial": false
+              },
+              {
+                "id": "item-2-2",
+                "title": "Sales Methodology, part 1",
+                "time": "Start: 9:00 AM  End: 10:00 AM",
+                "speakers": [
+                  {
+                    "name": "Kristy Rosano",
+                    "image":  "/images/speakers/Kristy-rosano.jpg"
+                  },
+                  {
+                    "name": "Steve McGrew",
+                    "image":  "/images/speakers/steve-mcgrew.jpg"
+                  },
+                  {
+                    "name": "Global Challenger Advisor",
+                    "image":  ""
+                  }
+                ],
+                "itemSpecial": false
+              },
+              {
+                "id": "item-2-3",
+                "title": "Break",
+                "time": "Start: 10:00 AM  End: 10:20 AM",
+                "speakers": [],
+                "itemSpecial": true
+              },
+              {
+                "id": "item-2-4",
+                "title": "Sales Methodology, part 2",
+                "time": "Start: 10:20 AM  End: 12:20 PM",
+                "speakers": [
+                  {
+                    "name": "Global Challenger Advisor",
+                    "image":  ""
+                  }
+                ],
+                "itemSpecial": false
+              },
+              {
+                "id": "item-2-5",
+                "title": "Lunch",
+                "time": "Start: 12:20 PM  End: 1:20 PM",
+                "speakers": [],
+                "itemSpecial": true
+              },
+              {
+                "id": "item-2-6",
+                "title": "IDN Pitch",
+                "time": "Start: 1:20 PM  End: 2:05 PM",
+                "speakers": [
+                  {
+                    "name": "Kaitlin Pierce",
+                    "image":  "/images/speakers/keitlin-pierce.jpg"
+                  }
+                ],
+                "itemSpecial": false
+              },
+              {
+                "id": "item-2-7",
+                "title": "Apptus",
+                "time": "Start: 2:05 PM  End: 2:50 PM",
+                "speakers": [
+                  {
+                    "name": "Andy Urban",
+                    "image":  "/images/speakers/andy-Urban-.jpg"
+                  },
+                  {
+                    "name": "Phil Gamroth",
+                    "image":  "/images/speakers/Phil-gamroth.jpg"
+                  },
+                  {
+                    "name": "Christin Villa",
+                    "image":  "/images/speakers/Christina-villa.jpg"
+                  }
+                ],
+                "itemSpecial": false
+              },
+              {
+                "id": "item-2-8",
+                "title": "Scorecards – IDN Opportunity Finder",
+                "time": "Start: 2:50 PM  End: 3:35 PM",
+                "speakers": [
+                  {
+                    "name": "Shannon Weinberg",
+                    "image":  "/images/speakers/shannon-weinberg.jpg"
+                  },
+                  {
+                    "name": "Janet Scott",
+                    "image":  "/images/speakers/Janeth-scott.jpg"
+                  },
+                  {
+                    "name": "Amy Martin",
+                    "image":  "/images/speakers/amy-martin.jpg"
+                  }
+                ],
+                "itemSpecial": false
+              },
+              {
+                "id": "item-2-9",
+                "title": "Break",
+                "time": "Start: 3:35 PM  End: 3:55 PM",
+                "speakers": [],
+                "itemSpecial": true
+              },
+              {
+                "id": "item-2-10",
+                "title": "Sales stages, FC, cadence & calendar",
+                "time": "Start: 3:55 PM  End: 4:40 PM",
+                "speakers": [
+                  {
+                    "name": "Arpita Shah",
+                    "image":  "/images/speakers/Arpita-shah.jpg"
+                  },
+                  {
+                    "name": "Stacy Kelleher",
+                    "image":  "/images/speakers/stacy-kelleher.jpg"
+                  }
+                ],
+                "itemSpecial": false
+              },
+              {
+                "id": "item-2-11",
+                "title": "The Future is EMaaS",
+                "time": "Start: 4:40 PM  End: 5:25 PM",
+                "speakers": [
+                  {
+                    "name": "Mike Zuckerman",
+                    "image":  "/images/speakers/Mike-zuckerman.jpg"
+                  },
+                  {
+                    "name": "Lyndsay Miles",
+                    "image":  "/images/speakers/Lindsay-miles.jpg"
+                  },
+                  {
+                    "name": "Ricardo Neufville",
+                    "image":  "/images/speakers/ricardo-neufville.jpg"
+                  },
+                  {
+                    "name": "Matt Davis",
+                    "image":  "/images/speakers/Matt Davis.jpg"
+                  },
+                  {
+                    "name": "James McGuinness",
+                    "image":  "/images/speakers/James-McGuinness.jpg"
+                  }
+                ],
+                "itemSpecial": false
+              },
+              {
+                "id": "item-2-12",
+                "title": "Zone leaders wrap up Day 2",
+                "time": "Start: 5:25 PM  End: 5:30 PM",
+                "speakers": [],
+                "itemSpecial": false
+              },
+              {
+                "id": "item-2-13",
+                "title": "Break",
+                "time": "Start: 5:30 PM  End: 6:30 PM",
+                "speakers": [],
+                "itemSpecial": true
+              },
+              {
+                "id": "item-2-14",
+                "title": "Celebration Dinner",
+                "time": "Start: 6:30 PM  End: 8:30 PM",
+                "speakers": [],
+                "itemSpecial": false
+              }
+            ]
+          },          
+          {
+            "id": "item-3",
+            "title": "Central Zone - Florida C",
+            "content": [
+              {
+                "id": "item-3-1",
+                "title": "Welcome",
+                "time": "Start: 8:00 AM  End: 9:00 AM",
+                "speakers": [
+                  {
+                    "name": "Denise Friedman",
+                    "image":  "/images/speakers/Denise Friedman.jpg"
+                  }
+                ],
+                "itemSpecial": false
+              },
+              {
+                "id": "item-3-2",
+                "title": "Sales Methodology, part 1",
+                "time": "Start: 9:00 AM  End: 10:00 AM",
+                "speakers": [
+                  {
+                    "name": "Global Challenger Advisor",
+                    "image":  ""
+                  }
+                ],
+                "itemSpecial": false
+              },
+              {
+                "id": "item-3-3",
+                "title": "Break",
+                "time": "Start: 10:00 AM  End: 10:20 AM",
+                "speakers": [],
+                "itemSpecial": true
+              },
+              {
+                "id": "item-3-4",
+                "title": "Sales Methodology, part 2",
+                "time": "Start: 10:20 AM  End: 12:20 PM",
+                "speakers": [
+                  {
+                    "name": "Global Challenger Advisor",
+                    "image":  ""
+                  }
+                ],
+                "itemSpecial": false
+              },
+              {
+                "id": "item-3-5",
+                "title": "Lunch",
+                "time": "Start: 12:20 PM  End: 1:20 PM",
+                "speakers": [],
+                "itemSpecial": true
+              },
+              {
+                "id": "item-3-6",
+                "title": "Sales stages, FC, cadence & calendar",
+                "time": "Start: 1:20 PM  End: 2:05 PM",
+                "speakers": [
+                  {
+                    "name": "Arpita Shah",
+                    "image":  "/images/speakers/Arpita-shah.jpg"
+                  },
+                  {
+                    "name": "Stacy Kelleher",
+                    "image":  "/images/speakers/stacy-kelleher.jpg"
+                  }
+                ],
+                "itemSpecial": false
+              },
+              {
+                "id": "item-3-7",
+                "title": "The Future is EMaaS",
+                "time": "Start: 2:05 PM  End: 2:50 PM",
+                "speakers": [
+                  {
+                    "name": "Mike Zuckerman",
+                    "image":  "/images/speakers/Mike-zuckerman.jpg"
+                  },
+                  {
+                    "name": "Lyndsay Miles",
+                    "image":  "/images/speakers/Lindsay-miles.jpg"
+                  },
+                  {
+                    "name": "Ricardo Neufville",
+                    "image":  "/images/speakers/ricardo-neufville.jpg"
+                  },
+                  {
+                    "name": "Matt Davis",
+                    "image":  "/images/speakers/Matt Davis.jpg"
+                  },
+                  {
+                    "name": "James McGuinness",
+                    "image":  "/images/speakers/James-McGuinness.jpg"
+                  }
+                ],
+                "itemSpecial": false
+              },
+              {
+                "id": "item-3-8",
+                "title": "Apptus",
+                "time": "Start: 2:50 PM  End: 3:35 PM",
+                "speakers": [
+                  {
+                    "name": "Andy Urban",
+                    "image":  "/images/speakers/andy-Urban-.jpg"
+                  },
+                  {
+                    "name": "Phil Gamroth",
+                    "image":  "/images/speakers/Phil-gamroth.jpg"
+                  },
+                  {
+                    "name": "Christin Villa",
+                    "image":  "/images/speakers/Christina-villa.jpg"
+                  }
+                ],
+                "itemSpecial": false
+              },
+              {
+                "id": "item-3-9",
+                "title": "Break",
+                "time": "Start: 3:35 PM  End: 3:55 PM",
+                "speakers": [],
+                "itemSpecial": true
+              },
+              {
+                "id": "item-3-10",
+                "title": "IDN Pitch",
+                "time": "Start: 3:55 PM  End: 4:40 PM",
+                "speakers": [
+                  {
+                    "name": "Kaitlin Pierce",
+                    "image":  "/images/speakers/keitlin-pierce.jpg"
+                  }
+                ],
+                "itemSpecial": false
+              },
+              {
+                "id": "item-3-11",
+                "title": "Scorecards – IDN Opportunity Finder",
+                "time": "Start: 4:40 PM  End: 5:25 PM",
+                "speakers": [
+                  {
+                    "name": "Shannon Weinberg",
+                    "image":  "/images/speakers/shannon-weinberg.jpg"
+                  },
+                  {
+                    "name": "Janet Scott",
+                    "image":  "/images/speakers/Janeth-scott.jpg"
+                  },
+                  {
+                    "name": "Amy Martin",
+                    "image":  "/images/speakers/amy-martin.jpg"
+                  }
+                ],
+                "itemSpecial": false
+              },
+              {
+                "id": "item-3-12",
+                "title": "Zone leaders wrap up Day 2",
+                "time": "Start: 5:25 PM  End: 5:30 PM",
+                "speakers": [],
+                "itemSpecial": false
+              },
+              {
+                "id": "item-3-13",
+                "title": "Break",
+                "time": "Start: 5:30 PM  End: 6:30 PM",
+                "speakers": [],
+                "itemSpecial": true
+              },
+              {
+                "id": "item-3-14",
+                "title": "Celebration Dinner",
+                "time": "Start: 6:30 PM  End: 8:30 PM",
+                "speakers": [],
+                "itemSpecial": false
+              }
+            ]
+          },          
+          {
+            "id": "item-4",
+            "title": "CA&D Track - Orlando M",
+            "content": [
+              {
+                "id": "item-4-1",
+                "title": "Welcome and Day Overview",
+                "time": "Start: 8:00 AM  End: 8:20 AM",
+                "speakers": [
+                  {
+                    "name": "Greg Sitkiewicz",
+                    "image": "/images/speakers/Greg-Sitkiewicz.jpg"
+                  },
+                  {
+                    "name": "Mariska Vente",
+                    "image": "/images/speakers/Mariska-Vente.jpg"
+                  },
+                  {
+                    "name": "Sachin Chaudhari",
+                    "image":  "/images/speakers/Sachin-Chaudari.jpg"
+                  }
+                ],
+                "itemSpecial": false
+              },
+              {
+                "id": "item-4-2",
+                "title": "Ways of Working Session 1: Team Structure & Account Management",
+                "time": "Start: 8:20 AM  End: 10:20 AM",
+                "speakers": [
+                  {
+                    "name": "Mariska Vente",
+                    "image": "/images/speakers/Mariska-Vente.jpg"
+                  },
+                  {
+                    "name": "Mary Ann Jose",
+                    "image":  "/images/speakers/Mary-ann-jose.jpg"
+                  }
+                ],
+                "itemSpecial": false
+              },
+              {
+                "id": "item-4-3",
+                "title": "Break",
+                "time": "Start: 10:20 AM  End: 10:35 AM",
+                "speakers": [],
+                "itemSpecial": true
+              },
+              {
+                "id": "item-4-4",
+                "title": "Ways of Working Session 2: Clinical Adoption & Collaboration with CCAMs",
+                "time": "Start: 10:35 AM  End: 12:00 PM",
+                "speakers": [
+                  {
+                    "name": "Mariska Vente",
+                    "image": "/images/speakers/Mariska-Vente.jpg"
+                  },
+                  {
+                    "name": "Mary Ann Jose",
+                    "image":  "/images/speakers/Mary-ann-jose.jpg"
+                  }
+                ],
+                "itemSpecial": false
+              },
+              {
+                "id": "item-4-5",
+                "title": "Lunch",
+                "time": "Start: 12:00 PM  End: 12:45 PM",
+                "speakers": [],
+                "itemSpecial": true
+              },
+              {
+                "id": "item-4-6",
+                "title": "Clinical Measurements (formerly known as MCS): How we win in 2024",
+                "time": "Start: 12:45 PM  End: 2:45 PM",
+                "speakers": [
+                  {
+                    "name": "Mary Ann Jose",
+                    "image":  "/images/speakers/Mary-ann-jose.jpg"
+                  },
+                  {
+                    "name": "Justin Leon",
+                    "image":  "/images/speakers/Justin-Leon.jpg"
+                  },
+                  {
+                    "name": "Alpha Newberg",
+                    "image":  "/images/speakers/alpha-newberg.jpg"
+                  },
+                  {
+                    "name": "Dan Ritchie",
+                    "image":  "/images/speakers/Dan-Ritchie.jpg"
+                  },
+                  {
+                    "name": "Deb Gifford",
+                    "image":  "/images/speakers/Deb-Gifford.jpg"
+                  },
+                  {
+                    "name": "Jil Barrett",
+                    "image":  "/images/speakers/Jil-barret.jpg"
+                  },
+                  {
+                    "name": "John Moscarillo",
+                    "image":  "/images/speakers/Jon-Moscarrillo.jpg"
+                  }
+                ],
+                "itemSpecial": false
+              },
+              {
+                "id": "item-4-7",
+                "title": "Break",
+                "time": "Start: 2:45 PM  End: 3:00 PM",
+                "speakers": [],
+                "itemSpecial": true
+              },
+              {
+                "id": "item-4-8",
+                "title": "General Care Portfolio: How we win in 2024",
+                "time": "Start: 3:00 PM  End: 3:45 PM",
+                "speakers": [
+                  {
+                    "name": "Nick Braithwaite",
+                    "image":  "/images/speakers/nick-braithwaite.jpg"
+                  },
+                  {
+                    "name": "Anand Yadav",
+                    "image":  "/images/speakers/anand-Yadav.jpg"
+                  }
+                ],
+                "itemSpecial": false
+              },
+              {
+                "id": "item-4-9",
+                "title": "OB / Fetal Monitoring Portfolio: How we win in 2024",
+                "time": "Start: 3:30 PM  End: 4:15 PM",
+                "speakers": [
+                  {
+                    "name": "Nick Braithwaite",
+                    "image": "/images/speakers/nick-braithwaite.jpg"
+                  },
+                  {
+                    "name": "Carol Shaughnessy",
+                    "image":  "/images/speakers/Carol-Shaughnessy.jpg"
+                  },
+                  {
+                    "name": "Wes Davis",
+                    "image":  "/images/speakers/wes-Davis.jpg"
+                  }
+                ],
+                "itemSpecial": false
+              },
+              {
+                "id": "item-4-10",
+                "title": "30 / 60 / 90 Day Events & Trainings (March / April & May​)",
+                "time": "Start: 4:15 PM  End: 5:00 PM",
+                "speakers": [
+                  {
+                    "name": "Mary Ann Jose",
+                    "image": "/images/speakers/Mary-ann-jose.jpg"
+                  }
+                ],
+                "itemSpecial": false
+              },
+              {
+                "id": "item-4-11",
+                "title": "Meeting End & Team Picture",
+                "time": "Start: 5:00 PM  End: 5:10 PM",
+                "speakers": [
+                  {
+                    "name": "Mariska Vente",
+                    "image": "/images/speakers/Mariska-Vente.jpg"
+                  }
+                ],
+                "itemSpecial": false
+              }
+            ]
+          },
+          {
+            "id": "item-4",
+            "title": "Services Track - Orlando N",
+            "content": [
+              {
+                "id": "item-4-1",
+                "title": "HPM Sales & Service Zone Welcome Address",
+                "time": "Start: 8:00 AM  End: 9:15 AM",
+                "speakers": [
+                  {
+                    "name": "Zone leaders",
+                    "image": ""
+                  }
+                ],
+                "itemSpecial": false
+              },
+              {
+                "id": "item-4-2",
+                "title": "Bit’s Welcome Message ",
+                "time": "Start: 9:15 AM  End: 10:00 AM",
+                "speakers": [
+                  {
+                    "name": "Bit Rambusch",
+                    "image": "/images/speakers/bit-ramusch.jpg"
+                  }
+                ],
+                "itemSpecial": false
+              },
+              {
+                "id": "item-4-3",
+                "title": "Leading through change keynote address",
+                "time": "Start: 10:00 AM  End: 11:00 PM",
+                "speakers": [
+                  {
+                    "name": "Donnie Horner",
+                    "image": "/images/speakers/donnie-horner.jpg"
+                  }
+                ],
+                "itemSpecial": false
+              },
+              {
+                "id": "item-4-4",
+                "title": "Workforce Innovation",
+                "time": "Start: 11:00 AM  End: 11:30 PM",
+                "speakers": [
+                  {
+                    "name": "Mary Ellen Skeens",
+                    "image": "/images/speakers/Mary-ellem-skeens.jpg"
+                  }
+                ],
+                "itemSpecial": false
+              },
+              {
+                "id": "item-4-5",
+                "title": "The future of EMaaS and SES ",
+                "time": "Start: 11:30 AM  End: 12:00 PM",
+                "speakers": [
+                  {
+                    "name": "Jaime Osborn",
+                    "image": "/images/speakers/jamie-Osborne.jpg"
+                  }
+                ],
+                "itemSpecial": false
+              },
+              {
+                "id": "item-4-6",
+                "title": "Lunch",
+                "time": "Start: 12:00 PM  End: 1:00 PM",
+                "speakers": [],
+                "itemSpecial": true
+              },
+              {
+                "id": "item-4-7",
+                "title": "The role of the CSM Team",
+                "time": "Start: 1:00 PM  End: 1:30 PM",
+                "speakers": [
+                  {
+                    "name": "Hasan Zaidi",
+                    "image": "/images/speakers/Hasa-Zaidi.jpg"
+                  }
+                ],
+                "itemSpecial": false
+              },
+              {
+                "id": "item-4-8",
+                "title": "District operating model",
+                "time": "Start: 1:30 PM  End: 2:30 PM",
+                "speakers": [
+                  {
+                    "name": "Zone service leaders",
+                    "image": ""
+                  }
+                ],
+                "itemSpecial": false
+              },
+              {
+                "id": "item-4-9",
+                "title": "Break",
+                "time": "Start: 2:30 PM  End: 3:00 PM",
+                "speakers": [],
+                "itemSpecial": true
+              },
+              {
+                "id": "item-4-10",
+                "title": "Role modeling the DSD",
+                "time": "Start: 3:00 PM  End: 4:30 PM",
+                "speakers": [
+                  {
+                    "name": "Change champions:",
+                    "image": ""
+                  },
+                  {
+                    "name": "James Robinson",
+                    "image": ""
+                  },
+                  {
+                    "name": "Jenny Johnson",
+                    "image":  ""
+                  },
+                  {
+                    "name": " Mary Ellen Skeens",
+                    "image":  ""
+                  },
+                  {
+                    "name": " Hasan Zaidi",
+                    "image":  ""
+                  },
+                  {
+                    "name": " Tony Porter",
+                    "image": ""
+                  },
+                  {
+                    "name": " Reenajit Kaur",
+                    "image": ""
+                  },
+                  {
+                    "name": "  Glen Peterson ",
+                    "image": ""
+                  }
+                ],
+                "itemSpecial": false
+              },
+              {
+                "id": "item-4-11",
+                "title": "Wrap up message",
+                "time": "Start: 3:30 PM  End: 4:30 PM",
+                "speakers": [
+                  {
+                    "name": "Greg Sitkiewicz",
+                    "image":  "/images/speakers/Greg-Sitkiewicz.jpg"
+                  },
+                  {
+                    "name": "Bit Rambusch",
+                    "image": "/images/speakers/bit-ramusch.jpg"
+                  }
+                ],
+                "itemSpecial": false
+              }
+            ]
+          },
+          {
+            "id": "item-5",
+            "title": "Celebration Dinner",
+            "content": [
+              {
+                "id": "item-5-1",
+                "title": "Celebration Dinner",
+                "time": "Start: 6:30 PM  End: 8:30 PM",
+                "speakers": [
+                ],
+                "itemSpecial": false
+              }
+            ]
+          }
+          
+      ]
+    }
+  ]
+  
